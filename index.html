@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>StyleStats</title>
+	<link rel="stylesheet" href="index.css">
+    <script src="stylestats.js" charset="utf-8"></script>
+    <script src="node_modules/chart.js/dist/Chart.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>Electron boilerplate</h1>
+		</header>
+		<section class="main">
+            <label for="url">
+                <input type="text" id="url" value="https://www.github.com/">
+            </label>
+            <button type="button" id="go">GO!</button>
+			<webview id="view" src=""
+			    preload='./stylestats.js'
+			    disablewebsecurity
+			    style="display:inline-flex; width:90%; height:200px"></webview>
+
+            <h2>Charts:</h2>
+            <div id="charts">
+            </div>
+		</section>
+        <section class="actions">
+
+        </section>
+		<footer></footer>
+	</div>
+    <script type="text/javascript" src="controller.js"></script>
+</body>
+
+</html>

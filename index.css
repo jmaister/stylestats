@@ -1,0 +1,25 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header h1 {
+	font-size: 60px;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+}
+
+webview {
+    border: 2px solid red;
+}
+
+canvas.chart {
+    height: 200px;
+    width: 90%;
+}

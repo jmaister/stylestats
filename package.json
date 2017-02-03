@@ -1,0 +1,44 @@
+{
+  "name": "stylestats",
+  "productName": "Stylestats",
+  "version": "0.1.0",
+  "description": "Stats about HTML styles and classes.",
+  "license": "MIT",
+  "repository": "jmaister/stylestats",
+  "author": {
+    "name": "Jordi Burgos",
+    "email": "jordiburgos@gmail.com",
+    "url": "jordiburgos.com"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --asar --overwrite --all"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "chart.js": "^2.4.0",
+    "electron-debug": "^1.0.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron": "^1.5.0",
+    "electron-packager": "^8.0.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
