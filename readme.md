@@ -2,6 +2,13 @@
 
 > Electron app for HTML page CSS and Styles stats.
 
+Available charts:
+
+* Number of elements.
+* Number of classes.
+* Number of nodes with style property defined.
+* Number of elements + style.
+
 ![Alt text](/screenshot.png?raw=true "StyleStats screenshot")
 
 ## Development setup
