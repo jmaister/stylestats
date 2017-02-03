@@ -8,8 +8,12 @@ body {
 	font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+header {
+    margin-bottom: 15px;
+}
+
 header h1 {
-	font-size: 60px;
+	font-size: 25px;
 	font-weight: 100;
 	margin: 0;
 	padding: 0;
