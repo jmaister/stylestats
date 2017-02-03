@@ -2,6 +2,8 @@
 
 > Electron app for HTML page CSS and Styles stats.
 
+![Alt text](/screenshot.png?raw=true "StyleStats screenshot")
+
 ## Development setup
 
 ```
